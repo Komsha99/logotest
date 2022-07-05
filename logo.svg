@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
    version="1.1"
    id="svg256"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
@@ -24,13 +24,13 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.52221046"
-     inkscape:cx="502.6709"
-     inkscape:cy="456.71241"
+     inkscape:zoom="5.9081369"
+     inkscape:cx="19.54931"
+     inkscape:cy="28.858505"
      inkscape:window-width="1350"
      inkscape:window-height="1000"
      inkscape:window-x="291"
-     inkscape:window-y="6"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -46,13 +46,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <text
-       xml:space="preserve"
-       transform="matrix(0.9804051,0,0,0.9804051,-78.172605,-244.99784)"
-       id="text429"
-       style="font-size:74.6667px;text-align:center;white-space:pre;shape-inside:url(#rect431);display:inline;fill:#ffffff;stroke-width:3.78"><tspan
-         x="150.46578"
-         y="376.42538"
-         id="tspan300">Logo</tspan></text>
+    <circle
+       style="fill:#fffff9;stroke-width:1.076;fill-opacity:1"
+       id="path710"
+       cx="6.3499999"
+       cy="6.3499999"
+       r="6.3499999" />
   </g>
 </svg>
