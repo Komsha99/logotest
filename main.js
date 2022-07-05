@@ -6,6 +6,7 @@ menuBtn.addEventListener('click', () => {
     menuBtn.parentNode.classList.remove('close');
     setTimeout(function(){
     menuOpen = true;
+    menuBtn.parentNode.classList.remove('close');
     }, 500);
     menuBtn.parentNode.classList.remove('close');
   } else {
