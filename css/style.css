@@ -97,6 +97,11 @@ nav.close {
 nav.open {
     background-color: rgb(50, 50, 50, 0.9);
     color: rgb(255, 255, 255,1);
+    overflow: scroll;
+}
+nav.open::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 nav.open.close {
     width: 100vw;
