@@ -38,16 +38,21 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 footer {
     width: 100%;
     height: auto;
     color: rgb(50, 50, 50);
     text-align: center;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 footer i {
     margin: 8%;
+}
+footer p {
+    margin-top: 5%;
 }
 #line1 {
     width: 100%;
@@ -61,12 +66,9 @@ footer i {
     background-color: rgb(50, 50, 50);
     margin-top: 10%;
 }
-#logodiv {
-    height: 100vh;
-}
 #logo {
-    width: 100%;
-    height: 100vh;
+    width: 50vw;
+    margin: 10% 0;
 }
 #background {
     background-image: linear-gradient(rgb(1, 18, 43), rgb(0, 0, 0) );
@@ -94,16 +96,12 @@ nav.close {
 }
 nav.open {
     background-color: rgb(50, 50, 50, 0.9);
-    overflow-y: scroll;
     color: rgb(255, 255, 255,1);
 }
 nav.open.close {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 120vh;
     display: flex;
-}
-nav.open::-webkit-scrollbar{
-    display: none;
 }
 nav.open p {
     display: inline-block;
@@ -121,9 +119,10 @@ nav.open #midburger{
     font-size: 5vw;
     color: rgb(255, 255, 255,0.75);
     vertical-align: bottom;
+    overflow: hidden;
 }
 .tiers p {
-    margin: 0 10%;
+    margin: 5% 10%;
 }
 .links {
     width: 15%;
