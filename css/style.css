@@ -153,12 +153,12 @@ nav.open #midburger{
         padding-top: 0.2%;
     }
     .burger {
-        width: 4vw;
-        height: 0.5vw;
-        margin: 1vw 0 0 1vw;
+        width: 4vh;
+        height: 0.5vh;
+        margin: 1vh 0 0 1vh;
     }
     nav.open #midburger {
-        transform: translateX(1vw);
+        transform: translateX(1vh);
     }
     .links {
         width: 5%;
