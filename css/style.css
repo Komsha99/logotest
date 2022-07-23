@@ -175,3 +175,41 @@ nav.open #midburger{
         margin: 0 0 1vw 25vw;
     }
 }
+@media screen and (orientation:landscape) {
+    .tiers {
+        width: 25%;
+        height: 30vw;
+        margin: 3%;
+        font-size: 1.8vw;
+    }
+    #line1 {
+        margin-bottom: 5%;
+        padding-top: 0.2%;
+    }
+    #line2 {
+        margin-top: 5%;
+        padding-top: 0.2%;
+    }
+    .burger {
+        width: 4vh;
+        height: 0.5vh;
+        margin: 1vh 0 0 1vh;
+    }
+    nav.open #midburger {
+        transform: translateX(1vh);
+    }
+    .links {
+        width: 5%;
+        margin-top: 1%;
+    }
+    footer {
+        font-size: 2vw;
+    }
+    footer i {
+        margin: 3%;
+    }
+    footer p {
+        display: inline-block;
+        margin: 0 0 1vw 25vw;
+    }
+}
